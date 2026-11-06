@@ -5,7 +5,7 @@
     box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
     padding: 2rem;
     padding: 2rem;
-    border-left: 0.4rem solid#266262;
+    border: 0.2rem solid #266262;
 }
 
 .tarjetaProducto:hover {

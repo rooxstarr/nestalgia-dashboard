@@ -4,7 +4,7 @@
     border-radius: 1rem;
     box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
     padding: 2rem;
-    border-left: 0.4rem solid;
+    border: 0.2rem solid;
 }
 
 .tarjetaIncidencia:hover {
@@ -19,7 +19,7 @@
 
 .pendiente {
     background-color: #f8d7da;
-    border-left-color: #701616;
+    border-color: #701616;
 }
 
 .pendiente p {
@@ -35,7 +35,7 @@
 
 .resuelta {
     background-color: #d4edda;
-    border-left-color: #217234;
+    border-color: #217234;
 }
 
 .resuelta p {
