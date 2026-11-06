@@ -1,0 +1,55 @@
+.empleados {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+.personal h2 {
+    margin-top: 2.3rem;
+    color: #256466;
+}
+
+.personal {
+    margin-left: 4rem;
+}
+
+.buscador {
+    display: flex;
+    gap: 0.5rem;
+    width: 18rem;
+    padding: 0.6rem 1rem;
+    border: 0.15rem solid #c3bab5;
+    border-radius: 90rem;
+    background-color: white;
+}
+
+.buscador input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-family: "Poppins";
+    font-size: 0.7rem;
+}
+
+.buscador:focus-within {
+    border-color: #256466;
+}
+
+.personal button {
+    background-color: #256466;
+    color: white;
+    border: none;
+    border-radius: 90rem;
+    padding: 0.6rem 1.2rem;
+    font-family: Poppins;
+    font-weight: 550;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.personal button:hover {
+    background-color: #1b4a4c;
+}

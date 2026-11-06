@@ -1,0 +1,25 @@
+.tarjetaEmpleado {
+    width: 14rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-left: 0.4rem solid#266262;
+}
+
+.tarjetaEmpleado:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12);
+}
+
+.tarjetaEmpleado h3 {
+    color: #c3bab5;
+    padding-bottom: 0.5rem;                 
+    border-bottom: 0.1rem solid #e5e1de;   
+}
+
+.textito {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #266262;
+}

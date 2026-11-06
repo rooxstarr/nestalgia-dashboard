@@ -1,0 +1,32 @@
+.lista-incidencias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.incidencias h2 {
+    margin-top: 2.3rem;
+    color: #256466;
+}
+
+.incidencias {
+    margin-left: 4rem;
+    padding-bottom: 2rem;
+}
+
+.incidencias button {
+    background-color: #256466;
+    color: #ffffff;
+    border: none;
+    border-radius: 90rem;
+    padding: 0.6rem 1.2rem;
+    font-family: Poppins;
+    font-weight: 550;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.incidencias button:hover {
+    background-color: #1b4a4c;
+}

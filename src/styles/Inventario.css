@@ -1,0 +1,31 @@
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+    margin-top: 3rem;
+}
+
+.inventario h2 {
+    margin-top: 2.3rem;
+    color: #256466;
+}
+
+.inventario {
+    margin-left: 4rem;
+}
+
+.inventario button {
+    background-color: #256466;
+    color: white;
+    border: none;
+    border-radius: 90rem;
+    padding: 0.6rem 1.2rem;
+    font-family: Poppins;
+    font-weight: 550; 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.inventario button:hover {
+    background-color: #1b4a4c;
+}

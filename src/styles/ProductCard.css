@@ -1,0 +1,37 @@
+.tarjetaProducto {
+    width: 20rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    padding: 2rem;
+    border-left: 0.4rem solid#266262;
+}
+
+.tarjetaProducto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12);
+}
+
+.etiqueta {
+    background-color: #f4c95d;
+    color: #266262;
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999rem;
+    display: inline-block;
+    /*con esto le digo que ocupe solo lo que mide el texto */
+}
+
+.tarjetaProducto h3 {
+    color: #c3bab5;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #e5e1de;
+}
+
+.tarjetaProducto img {
+    width: 100%;
+    height: 20rem;
+    object-fit: contain;
+}
