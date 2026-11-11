@@ -17,7 +17,7 @@ function Header() {
             <div className="marca">
                 <img src="/nestalgiagato.png" className="logo"></img>
                 {/* aquí agrupo el nombre y la frasecilla una debajo de la otra */}
-                <div className="texto">
+                <div>
                     <h1>Nestalgia</h1>
                     <p className="eslogan">Tu nido lector: construye el hábito, página a página</p>
                 </div>
