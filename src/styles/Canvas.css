@@ -1,6 +1,7 @@
 .canvas {
     flex: 1;
     background-color: #eaf2fb;
+    padding-bottom: 4rem;
 }
 
 .oscuro .canvas {
