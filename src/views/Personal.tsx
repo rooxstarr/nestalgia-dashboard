@@ -13,7 +13,6 @@ interface Empleado {
     ciudad: string;
 }
 
-
 // este componente dice "tengo 10 empleados voy a crear 10 tarjetas y a cada una le doy los datos de un empleado"
 
 function Personal() {
@@ -74,12 +73,12 @@ function Personal() {
             <div className="buscador">
                 <Search size={18} color="#256466"></Search>
                 {/* cada vez que escribo lo escrito se guarda en búsqueda */}
-                <input type="text" placeholder="Escribe el nombre del empleado" value={busqueda} onChange={(e) => setBusqueda(e.target.value)}></input>
+                <input type="text" placeholder="Escribe el nombre del empleado" value={busqueda} onChange={(busqueda) => setBusqueda(busqueda.target.value)}></input>
             </div>
 
             <button onClick={() => meterEmpleados()}>Ver los empleados</button> {/* al pulsar se piden los empleados a la api */}
 
-            {mensajeDeCarga}
+            {mensajeDeCarga} {/* boolean */}
 
             {/* y por cada empleado filtrado una tarjeta rellena sus huecos con sus datos */}
             <div className="empleados">

@@ -12,6 +12,7 @@ function Sidebar({ setSeccion }: Props) {
             <button onClick={() => setSeccion("Personal")}>Personal</button>
             <button onClick={() => setSeccion("Inventario")}>Inventario</button>
             <button onClick={() => setSeccion("Incidencias")}>Incidencias</button>
+
         </div>
     )
 }

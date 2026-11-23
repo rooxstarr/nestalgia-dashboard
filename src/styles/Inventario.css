@@ -7,7 +7,7 @@
 
 .inventario h2 {
     margin-top: 2.3rem;
-    color: #256466;
+    color: #415d84;
 }
 
 .inventario {
@@ -15,7 +15,7 @@
 }
 
 .inventario button {
-    background-color: #256466;
+    background-color: #415d84;
     color: white;
     border: none;
     border-radius: 90rem;
@@ -27,5 +27,5 @@
 }
 
 .inventario button:hover {
-    background-color: #1b4a4c;
+    background-color: #2f4566;
 }

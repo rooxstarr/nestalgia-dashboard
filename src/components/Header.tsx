@@ -15,7 +15,7 @@ function Header() {
         <div className="header">
             {/* agrupo el logo y los texxtos para que vayan juntitos a la izq */}
             <div className="marca">
-                <img src="/nestalgiagato.png" className="logo"></img>
+                <img src="/nestalgia-cejitas.png" alt="Logo Nestalgia" className="logo"></img>
                 {/* aquí agrupo el nombre y la frasecilla una debajo de la otra */}
                 <div>
                     <h1>Nestalgia</h1>

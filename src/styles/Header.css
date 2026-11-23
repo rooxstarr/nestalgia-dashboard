@@ -1,20 +1,21 @@
 .header {
-    background-color: #266262;
+    background-color: #415d84;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /*align items no se hereda*/
 }
 
 .marca {
     display: flex;
     align-items: center;
-    margin: 2.5rem;
+    margin: 1rem 2.5rem;
     gap: 0 2rem;
 }
 
 .logo {
-    height: 12rem;
+    height: 15rem;
     width: auto;
 }
 
@@ -22,8 +23,8 @@
     font-size: 1.3rem;
     margin-right: 5rem;
     padding: 1.4rem;
-    background-color: #d8d9dd;
-    color: #266262;
+    background-color: #eaf2fb;
+    color: #415d84;
     border-radius: 1.2rem;
     font-weight: 600;
 }

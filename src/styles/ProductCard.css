@@ -5,7 +5,7 @@
     box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
     padding: 2rem;
     padding: 2rem;
-    border: 0.2rem solid #266262;
+    border: 0.2rem solid #415d84;
 }
 
 .tarjetaProducto:hover {
@@ -14,8 +14,8 @@
 }
 
 .etiqueta {
-    background-color: #f4c95d;
-    color: #266262;
+    background-color: #fbdfe0;
+    color: #415d84;
     font-weight: 600;
     font-size: 0.8rem;
     padding: 0.25rem 0.75rem;
@@ -25,9 +25,9 @@
 }
 
 .tarjetaProducto h3 {
-    color: #c3bab5;
+    color: #57739b;
     padding-bottom: 0.5rem;
-    border-bottom: 0.1rem solid #e5e1de;
+    border-bottom: 0.1rem solid #d4e6fa;
 }
 
 .tarjetaProducto img {

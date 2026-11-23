@@ -1,26 +1,28 @@
 .sidebar {
     width: 15rem;
-    background-color: #c3bab5;
+    background-color: #c3dcfb;
     display: flex;
     flex-direction: column;
     padding: 2rem;
     gap: 1rem;
 }
 
+/* aquí tengo que indicar que el botón es de sidebar porque en react todos los css se juntan
+y se aplican a toda la app aunque cada uno lo importe un componente */
 .sidebar button {
-    background-color: #f5f2f0;
+    background-color: #f5f7fc;
     border: none;
     border-radius: 1rem;
     padding: 1rem;
     font-family: "Poppins";
     cursor: pointer;
     font-weight: 600;
-    color: #256466;
+    color: #415d84;
     transition: all 0.3s ease-in-out;
 }
 
 .sidebar button:hover {
-    background-color: #256466;
+    background-color: #415d84;
     color: white;
     padding: 1.4rem;
 }

@@ -7,7 +7,7 @@
 
 .incidencias h2 {
     margin-top: 2.3rem;
-    color: #256466;
+    color: #415d84;
 }
 
 .incidencias {
@@ -16,7 +16,7 @@
 }
 
 .incidencias button {
-    background-color: #256466;
+    background-color: #415d84;
     color: #ffffff;
     border: none;
     border-radius: 90rem;
@@ -28,5 +28,5 @@
 }
 
 .incidencias button:hover {
-    background-color: #1b4a4c;
+    background-color: #2f4566;
 }
