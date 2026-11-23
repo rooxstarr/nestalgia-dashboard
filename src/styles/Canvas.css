@@ -2,3 +2,7 @@
     flex: 1;
     background-color: #eaf2fb;
 }
+
+.oscuro .canvas {
+    background-color: #161d29;
+}

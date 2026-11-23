@@ -34,3 +34,12 @@
     opacity: 0.4;
     font-style: italic;
 }
+
+.oscuro .header {
+    background-color: #1c2536;
+}
+
+.oscuro .hora {
+    background-color: #2a3447;
+    color: #c3dcfb;
+}

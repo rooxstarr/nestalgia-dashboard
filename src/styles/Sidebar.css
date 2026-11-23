@@ -26,3 +26,21 @@ y se aplican a toda la app aunque cada uno lo importe un componente */
     color: white;
     padding: 1.4rem;
 }
+
+.boton-tema {
+    margin-top: auto;
+}
+
+.oscuro .sidebar {
+    background-color: #222c3d;
+}
+
+.oscuro .sidebar button {
+    background-color: #415d84;
+    color: #f5f7fc;
+}
+
+.oscuro .sidebar button:hover {
+    background-color: #c3dcfb;
+    color: #1c2536;
+}
